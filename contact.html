@@ -2,33 +2,58 @@
 <html lang="en-us">
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="assets/css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Acme">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/css/style.css">
         <title>David Battiston</title>
     </head>
     <body>
-        <header class="header">
-            <a href="index.html"><button class="btn">About Me</button></a>
-            <a href="portfolio.html"><button class="btn">Portfolio</button></a>
-            <a href="contact.html"><button class="btn">Contact Me</button></a>
-        </header>
-        <br>
-        <div class="panel1">
-            <h2 class="text" id="htitle">Contact Me</h2>
-            <hr class="hr">
-            <form class="text" id="contactcontent">
-                Name:<br>
-                <input type="text" name="yourname" class="text" id="name">
-                <br>
-                Email:<br>
-                <input type="email" name="youremail" class="text" id="email">
-                <br>
-                Message:<br>
-                <input type="text" name"yourtext" class="text" id="message">
-            </form>
+        <div class="div">
+            <nav class="navbar navbar-expand-lg">
+                <a class="nav-item nav-link" href="index.html">About Me</a>
+                <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+                <a class="nav-item nav-link" href="contact.html">Contact Me</a>
+            </nav>
         </div>
-        <footer>
-            <p class="ftrcontent">Copyright Ⓒ</p>
-        </footer>
+        <br>
+        <div class="div">
+            <row class="row">
+                <column class="col-md-12">
+                    <h2>Contact Me</h2>
+                    <hr>
+                </column>
+            </row>
+            <row class="row">
+                <column class="col-md-8">
+                    <form class="form-group">
+                          <label for="name">Full Name:</label>
+                          <input type="text" class="form-control">
+                    </form>
+                    <form class="form-group">
+                          <label for="email">Email address:</label>
+                          <input type="email" class="form-control">
+                    </form>
+                    <form class="form-group">
+                          <label for="name">Your Message:</label>
+                          <input type="text" class="form-control" id="i1">
+                    </form>
+                    <btn class="btn btn-block">Submit</btn>
+                </column>
+                <column class="col-md-4">
+                    <h2>My Profiles</h2>
+                    <hr>
+                    <a href="https://github.com/djbatt" class="fab fa-github-square" id="profiles"></a>
+                    <a href="https://linkedin.com/in/david-battiston/" class="fab fa-linkedin" id="profiles"></a>
+                    <a href="https://google.com" class="fab fa-google-plus-square" id="profiles"></a>
+                </column>
+            </row>
+        </div>
+        <br>
+        <div class="div">
+            <footer class="footer">
+                <p>Copyright Ⓒ 2018 David Battiston</p>
+            </footer>
+        </div>
     </body>
 </html>

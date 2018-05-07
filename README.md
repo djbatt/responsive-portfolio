@@ -1,2 +1,2 @@
-# responsive-portfolio
-portfolio assignment responsive to mobile, using css
+# portfolioasgmt
+portfolio webpage assignment

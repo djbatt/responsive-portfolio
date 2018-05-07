@@ -1,27 +1,61 @@
 <!DOCTYPE html>
-<!All documents use webpage urls for the images, instead of relative file path because I was having an error>
 <html lang="en-us">
     <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="assets/css/style.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Acme">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/css/style.css">
         <title>David Battiston</title>
     </head>
     <body>
-        <header class="header">
-            <a href="index.html"><button class="btn">About Me</button></a>
-            <a href="portfolio.html"><button class="btn">Portfolio</button></a>
-            <a href="contact.html"><button class="btn">Contact Me</button></a>
-        </header>
-        <br>
-        <div class="panel1">
-            <h2 class="text" id="htitle">David Battiston</h2>
-            <hr class="hr">
-            <p class="text" id="par1">Hi I'm Dave I like to spend my free time kayaking or hanging out at the river. I've lived in Richmond all my life, I actually grew up less than a mile from the river. My interest in computers and tech in general started with video games, I was introduced by my brother. I started out on flash games when I was very young but when I got older I got a Xbox for Christmas one year. Eventually I got a computer because there were more games on it. As I got older, I had learned so many things just by fixing things that broke when I tried to use a computer. I always wanted to make a career out of working on the computer but I never took the chance when I was younger. I want to make a career out of working on my computer by the end of this year.</p>
-            <img src="https://i.imgur.com/zgmK4cU.png" alt="Dave Battiston" id="dave">
+        <div class="div">
+            <nav class="navbar navbar-expand-lg">
+                <a class="nav-item nav-link" href="index.html">About Me</a>
+                <a class="nav-item nav-link" href="portfolio.html">Portfolio</a>
+                <a class="nav-item nav-link" href="contact.html">Contact Me</a>
+            </nav>
         </div>
-        <footer>
-            <p class="ftrcontent">Copyright Ⓒ</p>
-        </footer>
+        <br>
+        <div class="div">
+            <row class="row">
+                <column class="col-md-12">
+                    <h2>David Battiston</h2>
+                    <hr>
+                </column>
+            </row>
+            <row class="row">
+                <column  class="col-md-8">
+                    <br>
+                    <p>In hac habitasse platea dictumst. Donec vel nibh quis ex rhoncus tincidunt. Pellentesque lacinia viverra risus sed interdum. Phasellus ac consectetur libero. Vivamus mattis lorem nunc, quis posuere enim tempor placerat. Proin molestie sodales erat vel congue. Vestibulum suscipit lobortis felis et gravida. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam volutpat, lacus ac fringilla mollis, justo neque gravida mauris, ac ullamcorper odio nunc a tellus. Quisque quis aliquet mi. Nulla suscipit maximus velit, et convallis sem sagittis id. Praesent semper magna ut orci ultricies, a efficitur eros tincidunt. Proin eu neque commodo, posuere ipsum vel, volutpat est. Nulla augue metus, iaculis in arcu sed, bibendum dignissim ante. Sed vulputate, odio a imperdiet varius, eros mauris fermentum leo, sed mollis massa magna ultrices tortor. Proin imperdiet purus justo, vitae pulvinar risus varius ut. Maecenas non nunc tellus. Donec diam orci, sodales placerat venenatis vel, sollicitudin ac tortor. Proin eleifend cursus nisl, nec rhoncus diam placerat quis. Sed gravida risus dapibus egestas mollis. Nulla sit amet orci ut nisl sagittis ultrices at et orci. In sed tristique sapien. Nam venenatis orci urna, nec accumsan odio scelerisque ut.</p>
+                </column>
+                <column class="col-md-4">
+                    <img src="assets/images/dave.png" class="img-fluid" alt="David Battiston">
+                </column>
+            </row>
+            <row class="row">
+                <column class="col-md-8">
+                    <p>Cras convallis, nisl sed interdum ornare, eros dolor rutrum felis, a dictum nisi ipsum sed metus. Etiam convallis pulvinar leo. Duis et luctus nisi. Duis faucibus eros at condimentum fringilla. Donec enim turpis, facilisis ut condimentum nec, porta vel ipsum. Quisque quis mollis est. Donec tempus enim sed urna blandit, et vehicula purus molestie. Integer vel elementum lorem, sed fermentum elit. Proin nisi mauris, maximus at rhoncus ut, placerat eu turpis. Integer luctus dui et nisi varius, ut ornare enim luctus. Sed consequat lorem a ligula maximus bibendum. Mauris ac magna vitae est convallis placerat eget at nisi. Aliquam erat volutpat. Donec vel gravida risus. Sed efficitur consectetur tortor quis sodales. Fusce a faucibus enim, eget euismod mauris.</p>
+                </column>
+                <column class="col-md-4">
+                    <h2>My Profiles</h2>
+                    <hr>
+                    <a href="https://github.com/djbatt" class="fab fa-github-square" id="profiles"></a>
+                    <a href="https://linkedin.com/in/david-battiston/" class="fab fa-linkedin" id="profiles"></a>
+                    <a href="https://google.com" class="fab fa-google-plus-square" id="profiles"></a>
+                </column>
+            </row>
+            <row class="row">
+                <column class="col-md-12">
+                    <p>In consequat consequat eros, sagittis ullamcorper quam pretium vel. Suspendisse consectetur aliquam nunc et pretium. Aenean rutrum finibus velit, at lacinia tortor vulputate facilisis. Phasellus lacinia fringilla nunc ac volutpat. Aenean gravida felis urna, et pellentesque velit aliquet ut. Mauris et sagittis ligula, et vulputate libero. In hac habitasse platea dictumst. Vestibulum sagittis, risus non fermentum fermentum, diam felis scelerisque nulla, vel tincidunt sem orci at purus. Praesent blandit orci semper, facilisis felis sed, rutrum lectus. Sed quis auctor massa, vel rhoncus ante. Maecenas tempor, nisi nec consequat gravida, arcu nulla bibendum erat, non laoreet nisl ex nec nunc. Nullam suscipit luctus faucibus. Donec ut scelerisque dui. In hac habitasse platea dictumst. Curabitur at bibendum augue. Nulla ac laoreet augue.</p>
+                </column>
+            </row>
+        </div>
+        <br>
+        <div class="div">
+            <footer class="footer">
+                <p>Copyright Ⓒ 2018 David Battiston</p>
+            </footer>
+        </div>
     </body>
 </html>

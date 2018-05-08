@@ -19,7 +19,7 @@ hr {
     border-style: solid;
     border-width: 2px;
     border-color: #4e4e4e;
-    width: 1040px;
+    width: 920px;
     padding-right: 15px;
     padding-left: 15px;
     margin-left: auto;
@@ -37,12 +37,8 @@ hr {
     text-align: center;
 }
 
-.col66 {
-    width: 66%;
-}
-
-.col33 {
-    width: 33%;
+.contact {
+    width: 100%;
 }
 
 .ptitle {
@@ -55,6 +51,24 @@ img {
     border-style: solid;
     border-width: 2px;
     border-color: #4e4e4e;
+    height: 260px;
+}
+
+form {
+    margin: 20px;
+    width: 50%;
+    display: inline-block;
+}
+
+input {
+    width: 100%;
+    margin: 20px;
+}
+
+aside {
+    width: 36.5%;
+    margin: 20px;
+    display: inline-block;
 }
 
 #profiles {
